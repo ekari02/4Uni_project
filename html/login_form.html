@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-slate-200">
+    <nav>
+      <button id="back-to-home">
+        <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6 m-4"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+        />
+      </svg>
+      </button>
+    </nav>
+
+    <header>
+      <h1 class="text-3xl font-bold text-center">Welcome!</h1>
+      <p class="text-slate-400 text-center">Sign in to continue</p>
+    </header>
+
+    <div class="pt-16 flex flex-col gap-10 items-center justify-center">
+      <input
+        type="text"
+        placeholder="username"
+        class="mx-10 border-2 border-b-slate-600/50 bg-slate-200 p-2 outline-none w-[300px]"
+      />
+        <input
+          type="password"
+          placeholder="password"
+          class="mx-10 border-2 border-b-slate-600/50 bg-slate-200 p-2 outline-none w-[300px]"
+        />
+    </div>
+
+    <div class="pt-12 text-center">
+      <button
+        class="px-8 py-2 border rounded-md w-[200px] text-slate-100 bg-gradient-to-r from-blue-900 via-blue-600 to-blue-400"
+      >
+        LOGIN
+      </button>
+      <p class="pt-2 text-slate-900">Forget password?</p>
+    </div>
+
+    <!-- <div class="flex items-center mx-auto mt-6 w-[300px]">
+      <div class="border-t border-2 border-slate-400 flex-grow"></div>
+      <div class="px-3 text-slate-950 font-bold text-xl">or</div>
+      <div class="border-t border-2 border-slate-400 flex-grow"></div>
+    </div> -->
+
+    <!-- <div class="mt-10 flex flex-col gap-5 w-[140px] mx-auto">
+      <div class="flex">
+        <p class="text-slate-900">Social Media Login</p>
+      </div>
+      <div class="flex justify-around items-center">
+        <i class="fa-brands fa-google fa-lg"></i>
+        <i class="fa-brands fa-square-facebook fa-lg"></i>
+        <i class="fa-brands fa-apple fa-xl"></i>
+      </div>
+    </div> -->
+
+    <div class="mt-8 flex justify-center">
+      <p class="inline pr-2">Don't have an account?</p>
+      <a href="sign_in_form.html" class="text-blue-500 visited:text-slate-600 font-bold" id="sign-up">Sign up</a>
+    </div>
+
+    <script src="../js/form.js"></script>
+  </body>
+</html>
